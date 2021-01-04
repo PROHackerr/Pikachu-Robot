@@ -1,4 +1,4 @@
 @echo off
-TITLE Saitama Robot
-:: Enables virtual env mode and then starts saitama
-env\scripts\activate.bat && py -m SaitamaRobot
+TITLE Pikachu Robot
+:: Enables virtual env mode and then starts pikachu
+env\scripts\activate.bat && py -m PikachuRobot

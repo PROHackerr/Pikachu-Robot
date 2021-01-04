@@ -7,9 +7,10 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [Pikachu_lava_bot](https://t.me/Pikachu_lava_bot).
 
-The Support group can be reached out to at [Eagle union Support](https://t.me/pikachubotsupport), where you can ask for help about [Pikachu_ProBot](https://t.me/pikachuprobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Eagle union Support](https://t.me/pikachubotsupport), where you can ask for help about [Pikachu_lava_bot](https://t.me/Pikachu_lava_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [Pikachu Updates](https://t.me/pikachubotUpdates) 
 # HOW TO SETUP AND DEPLOY
-<a href="https://heroku.com/deploy?template=https://github.com/pro-boy/Pikachu-Robot/blob/master"> <img src="https://www2.assets.heroku.com/assets/elements/elements-buttons-2-4867044559069b937ba0fd078f5604f310a49928bd1b59fb3d2f0ff96e0d97c8.svg" alt="Deploy to Heroku" /></a></p>
+<a href="https://heroku.com/deploy?template=https://github.com/srinivasop/Pikachu-Robot/blob/master"> <img src="https://www2.assets.heroku.com/assets/elements/elements-buttons-2-4867044559069b937ba0fd078f5604f310a49928bd1b59fb3d2f0ff96e0d97c8.svg" alt="Deploy to Heroku" /></a></p>
 # work in progress
+<a href="https://telegra.ph/file/871a5d71464c77ed5d145.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="200" data-original-width="200" height="" src="https://telegra.ph/file/871a5d71464c77ed5d145.jpg" width="500" /></a></div>
